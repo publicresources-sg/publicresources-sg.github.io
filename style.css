@@ -40,9 +40,20 @@ body{
     font-size: 1.5vw;
 }
 
-body > main >article {
+body > main article {
     width: 70%;
     margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+#main-content > div {
+    width: 70%;
 }
 
 ul{
